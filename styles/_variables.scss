@@ -1,0 +1,32 @@
+// fonts
+$font-stack: 'RHD', sans-serif;
+
+// font-sizes
+$font-size-base: 16px;
+$font-size-small: 14px;
+$font-size-large: 24px;
+
+//font-weights
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+$font-weight-black: 900;
+
+// colors
+// primary
+$pale-blue: hsl(225, 100%, 94%);
+$bright-blue: hsl(245, 75%, 52%);
+
+// secondary
+$very-pale-blue: hsl(225, 100%, 98%);
+$desaturated-blue: hsl(224, 23%, 55%);
+$dark-blue: hsl(223, 47%, 23%);
+$white: hsl(0, 0%, 100%);
+
+// hsla
+$bright-blue-alpha: hsla(245, 75%, 52%, 0.7);
+
+// breakpoints
+$breakpoint-desktop: 768px;
+
+// border-radius
+$border-radius: 10px;

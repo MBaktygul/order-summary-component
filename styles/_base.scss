@@ -1,0 +1,62 @@
+// base
+body {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	font-family: $font-stack;
+	background-color: $pale-blue;
+	font-size: $font-size-small;
+	height: 100vh;
+	position: relative;
+}
+
+section {
+	max-width: 350px;
+
+	@media (width: 320px) {
+		margin: 0 20px;
+	}
+}
+
+h2 {
+	color: $dark-blue;
+}
+
+p {
+	color: $desaturated-blue;
+	font-size: $font-size-base;
+	font-weight: 500;
+}
+
+a {
+	color: $bright-blue;
+
+	&:visited {
+		color: $bright-blue;
+	}
+	&:hover {
+		color: $bright-blue-alpha;
+	}
+}
+
+img {
+	border-top-left-radius: $border-radius;
+	border-top-right-radius: $border-radius;
+}
+
+button {
+	width: 100%;
+	padding: 14px;
+	border-radius: $border-radius;
+	border: 0;
+	background-color: $bright-blue;
+	color: $white;
+	font-size: $font-size-small;
+	box-shadow: 0px 20px 20px 1px $pale-blue;
+
+	&:hover {
+		background-color: $bright-blue-alpha;
+		cursor: pointer;
+	}
+}
