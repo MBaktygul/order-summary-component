@@ -40,7 +40,7 @@
 	}
 }
 
-a.button {
+.button-payment {
 	width: 100%;
 	padding: 14px;
 	border-radius: $border-radius;
@@ -49,10 +49,25 @@ a.button {
 	color: $white;
 	font-size: $font-size-small;
 	box-shadow: 0px 20px 20px 1px $pale-blue;
+	cursor: pointer;
 
 	&:hover {
 		background-color: $bright-blue-alpha;
-		cursor: pointer;
+	}
+}
+
+.button-cancel {
+	color: $desaturated-blue;
+	all: unset;
+	background: none;
+	border: none;
+	padding: 0;
+	font: inherit;
+	text-align: inherit;
+	cursor: pointer;
+
+	&:hover {
+		color: $dark-blue;
 	}
 }
 

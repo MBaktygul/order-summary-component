@@ -9,8 +9,8 @@
 	</head>
 	<body>
 		<div class="background-image">
-			<img src="./images/pattern-background-mobile.svg" alt="background lilac pattern" class="background-image-mobile" />
-			<img src="./images/pattern-background-desktop.svg" alt="background lilac pattern" class="background-image-desktop" />
+			<img src="./images/pattern-background-mobile.svg" alt="Background pattern with lilac color" class="background-image-mobile" />
+			<img src="./images/pattern-background-desktop.svg" alt="Background pattern with lilac color" class="background-image-desktop" />
 		</div>
 		<header>
 			<h1 class="sr-only">Order summary component</h1>
@@ -22,7 +22,7 @@
 				<p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
 				<div class="section__inner-info flex-row">
 					<div class="flex-row">
-						<i aria-hidden="true">
+						<i aria-hidden="true" role="icon">
 							<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
 								<g fill="none" fill-rule="evenodd">
 									<circle cx="24" cy="24" r="24" fill="#DFE6FB" />
@@ -34,14 +34,14 @@
 							</svg>
 						</i>
 						<div class="text-s flex-column">
-							<span class="text-bold">Annual Plan</span>
+							<span class="text-bold text-dark">Annual Plan</span>
 							<span class="text-light">$59.99/year</span>
 						</div>
 					</div>
 					<a class="link-underline text-s" href="#">Change</a>
 				</div>
-				<a href="#" class="button" role="button">Proceed to Payment</a>
-				<a href="#">Cancel Order</a>
+				<button type="button" class="button-payment">Proceed to Payment</button>
+				<button type="button" class="button-cancel">Cancel Order</button>
 			</div>
 		</section>
 		<footer class="attribution text-xs">
